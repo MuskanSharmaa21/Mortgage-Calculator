@@ -1,0 +1,104 @@
+.full{
+    width: 1400px;
+    background-color: hsl(202, 86%, 94%);
+    height: 600px;
+}
+.both{
+    padding:100px;
+    width:1000px;
+    display: flex;
+}
+.calculator{
+    width:400px;
+    height: 400px;
+    background-color:white;
+    padding: 10px;
+    border-radius: 20px 0px 0px 20px;
+}
+.heading-1{
+    color:hsl(202, 55%, 16%) ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.amt{
+    display: flex;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 5px;
+}
+.term{
+    display: flex;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 5px;
+}
+.rate{
+    display: flex;
+    border: 2px solid black; 
+    margin: 20px;
+    border-radius: 5px;
+}
+.sign{
+    background-color: hsl(202, 86%, 94%);
+    width: fit-content;
+}
+.years{
+    background-color: hsl(202, 86%, 94%);
+    width: fit-content;
+}
+.per-sign{
+    background-color: hsl(202, 86%, 94%);
+}
+.cal{
+    margin: 15px;
+    background-color: hsl(61, 70%, 52%);
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+}
+.cal:hover{
+    border:2px solid blue;
+}
+.result{
+    width: 400px;
+    background-color: hsl(202, 55%, 16%);
+    padding: 10px;
+    height: 400px;
+    border: none;
+    border-radius: 0px 20px 20px 45px;
+}
+.monthly{
+    color:hsl(202, 86%, 94%);
+    border-top: 5px solid hsl(61, 70%, 52%);
+}
+.mon-result{
+    color:  hsl(61, 70%, 52%);
+    height: 50px;
+    font-size: 48px;
+    border-bottom: 2px solid hsl(202, 86%, 94%);
+}
+.heading-2{
+    color:hsl(202, 86%, 94%) ;
+}
+.text{
+    color:hsl(202, 86%, 94%) ;
+}
+.total{
+    color:hsl(202, 86%, 94%) ;
+}
+.total-result{
+    height:30px;
+    font-size:28px;
+    color:hsl(202, 86%, 94%) ;
+}
+.select{
+    border: 2px solid black;
+}
+.repayment{
+    background-color: black;
+    height:150px;
+    margin: 20px;
+}
+.i-per{
+    display: flex;
+}
