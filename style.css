@@ -2,6 +2,8 @@
     width: 1400px;
     background-color: hsl(202, 86%, 94%);
     height: 600px;
+    justify-content: center;
+    align-items: center;
 }
 .both{
     padding:100px;
@@ -9,7 +11,7 @@
     display: flex;
 }
 .calculator{
-    width:400px;
+    width:450px;
     height: 400px;
     background-color:white;
     padding: 10px;
@@ -21,22 +23,10 @@
     font-weight: 700;
 }
 .amt{
-    display: flex;
-    border: 2px solid black;
+   border: 2px solid black;
     margin: 20px;
     border-radius: 5px;
-}
-.term{
     display: flex;
-    border: 2px solid black;
-    margin: 20px;
-    border-radius: 5px;
-}
-.rate{
-    display: flex;
-    border: 2px solid black; 
-    margin: 20px;
-    border-radius: 5px;
 }
 .sign{
     background-color: hsl(202, 86%, 94%);
@@ -99,6 +89,22 @@
     height:150px;
     margin: 20px;
 }
-.i-per{
+.int_per{
     display: flex;
+    width: fit-content;
+    border: 2px solid black;
+    width: 48%;
+}
+.time{
+    display: flex;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    align-content: left;
+    width: 48%;
+}
+.i-and-time{
+    display: flex;
+    gap: 20px;
 }
