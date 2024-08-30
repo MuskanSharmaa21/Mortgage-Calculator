@@ -75,9 +75,9 @@ function display_final_repayment(){
     const { mortgage_amt, mortgage_term, mortgage_rate } = get_all_values();
     let final_repayment=(mortgage_amt*mortgage_rate*mortgage_term)/100;
     let monthly_repayment=final_repayment/(mortgage_term*12);
-    let result_Element=document.querySelector('.cal');
+    let result_Element=document.querySelector('.result');
     result_Element.innerHTML=`
-    <div class="result">
+    
       <h3 class="heading-2">Your Results</h3>
      <p class="text"> Your results are shown below based on the information you provided. To adjust the results, edit the form and click "Calculate Repayments" again.</p>
      </div>
